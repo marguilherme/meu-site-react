@@ -10,11 +10,13 @@ function App() {
   return (
     <div>
       <NavbarComponent />
+      <div className="container">
       <Routes>
         <Route exact path="/" element={<HomePage />}></Route>
         <Route path="/about" element={<AboutPage />}></Route>
         <Route path="*" element={<NotFoundPage />}></Route>
       </Routes>
+      </div>
     </div>
   );
 }
