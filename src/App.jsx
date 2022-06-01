@@ -3,6 +3,7 @@ import './App.css';
 import { Navbar } from './components/navbar.tsx';
 import { AboutPage } from './pages/about.tsx';
 import { HomePage } from './pages/Home.tsx';
+import { NotFoundPage } from './pages/not-found.tsx';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Routes>
         <Route exact path="/" element={<HomePage />}></Route>
         <Route path="/about" element={<AboutPage />}></Route>
+        <Route path="*" element={<NotFoundPage />}></Route>
       </Routes>
     </div>
   );
