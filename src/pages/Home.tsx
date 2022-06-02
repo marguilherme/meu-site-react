@@ -15,17 +15,17 @@ export const HomePage = () => {
     });
     return (
         <>
-            <div className="container1">
+            <div id="background1" className="container1">
                 <div className="texto-container1">
-                <h1 className="msg-boas-vindas">Boas-Vindas!</h1>
-                <p>
-                    Este é um site que está sendo desenvolvido por Marcos Guilhermes,<br/>está sendo desenvolvido usando as tecnoligas React Typescript
-                    </p>
+                <h1 className="titulo">Bem-Vindo!</h1>
+                <p className="mensagem">
+                    Este site é um projeto realizado durante o Intlab, desenvolvido por Marcos Guilherme utilizando as tecnologias React Typescript
+                </p>
                 </div>
             </div>
-            <div className="container2">
-                <h2>Meus Projetos</h2>
-                <Row>
+            <div id="background2" className="container2">
+                <h2 className="titulo" >Meus Projetos</h2>
+                <Row xs={1} md={3} className="g-4">
                 {
                     repos.map((repo, index) => <CardComponent repo={repo} key={index} />)
                 }
