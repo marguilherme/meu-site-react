@@ -1,0 +1,9 @@
+.icone {
+    background-image: url(../images/logo.png);
+    width: 64px;
+    height: 64px;
+}
+
+.color-nav{
+    background-color: #595656;
+}
