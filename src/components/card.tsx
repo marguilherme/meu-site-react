@@ -13,7 +13,7 @@ export const CardComponent: React.FC<Repository> = ({ repo }) => {
     return(
         <CardGroup>
             <Col>
-                <Card border="info" className="col-12 m10 card-projeto">
+                <Card border="info" className="col-12 m10 ">
                 <Card.Body>
                     <Card.Title>{repo.name}</Card.Title>
                     <Card.Link href={repo.html_url} target="_blank">Ir Para o Projeto</Card.Link>
