@@ -6,6 +6,7 @@ import { HomePage } from './pages/Home.tsx';
 import { ContactPage } from './pages/contact.tsx';
 import { NotFoundPage } from './pages/not-found.tsx';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { FooterComponent } from './components/footer';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/contact" element={<ContactPage />}></Route>
         <Route path="*" element={<NotFoundPage />}></Route>
       </Routes>
+      <FooterComponent />
     </div>
   );
 }

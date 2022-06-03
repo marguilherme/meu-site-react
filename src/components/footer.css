@@ -1,0 +1,35 @@
+.enviar {
+    width: 7%;
+    margin: 10px;
+    padding: 15px;
+    background: #848282;
+    border: none;
+    border-radius: 5px;
+}
+
+footer {
+    width: 100%;
+    position: fixed;
+    padding: 5px 0;
+    bottom: 0;
+    margin-top: 30px;
+    display: block;
+    background-color: #8a8a8a;
+}
+
+footer p{
+    display: block;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.redes-sociais{
+    display: block;
+    text-align: center;
+    margin: 10px
+}
+
+.item-rede-social {
+    margin: 10px;
+    color: black;
+}

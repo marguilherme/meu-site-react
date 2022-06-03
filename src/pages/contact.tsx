@@ -1,6 +1,6 @@
 export const ContactPage = () => (
     <>
-    <div id="background-contact" className="container1">
+    <div id="background-contact" className="container-contato">
         <h1>Entre em contato!</h1>
         <form>
             <label htmlFor="nome">Digite seu nome:</label>
@@ -8,7 +8,7 @@ export const ContactPage = () => (
             <br/>
 
             <label htmlFor="email">Digite seu email:</label>
-            <input type="text" id="email" className="input-form" placeholder="email@email.com"/>
+            <input type="email" id="email" className="input-form" placeholder="email@email.com"/>
             <br/>
 
             <label htmlFor="nome">Digite sua mensagem:</label>
