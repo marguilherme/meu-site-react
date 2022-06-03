@@ -1,20 +1,29 @@
-#background1 {
+#background-home {
     background-image: url(../images/background-home.png);
     background-size: 100%;
+    background-repeat: no-repeat;
 }
 
-#background2 {
+#background-projetos {
     background-image: url(../images/background-projects.png);
     background-size: 100%;
+    background-repeat: no-repeat;
 }
 
-#background3 {
+#background-about {
     background-image: url(../images/background-about.jpg);
     background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#background-contact {
+    background-image: url(../images/background-contact.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 .titulo, .mensagem {
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 p a {
@@ -23,9 +32,10 @@ p a {
 }
 
 .container1 {
+    display: inline-block;
     position: relative;
     width: 100%;
-    height: 700px;
+    height: 100vh;
     margin-left: auto;
     margin-right: auto;
 }
@@ -41,7 +51,7 @@ p a {
 .container2 {
     position: relative;
     width: 100%;
-    height: 700px;
+    height: 100vh;
     margin-left: auto;
     margin-right: auto;
 }
@@ -54,4 +64,17 @@ p a {
 
 .projetos {
     border-top: 3px solid #ffffff;
+}
+
+.card-projetos {
+    width: 95%;
+    padding-left: 35px;
+}
+
+.texto-about {
+    position: absolute;
+    width: 800px;
+    top: 45%;
+    transform: translateY(-50%);
+    padding-left: 50px;
 }

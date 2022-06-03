@@ -15,8 +15,8 @@ export const NavbarComponent = () => {
             <Navbar.Collapse className="dd-flex flex-row-reverse" id="basic-navbar-nav">
                 <Nav className="me-auto">
                     <Link className="nav-link" to="/">Home</Link>
-                    <Link className="nav-link" to="/about">About</Link>
-                    <Link className="nav-link" to="/contact">Contact</Link>
+                    <Link className="nav-link" to="/about">Sobre</Link>
+                    <Link className="nav-link" to="/contact">Contato</Link>
                 </Nav>
             </Navbar.Collapse>
         </Container>
