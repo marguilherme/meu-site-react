@@ -10,7 +10,7 @@ export const NavbarComponent = () => {
     <>
     <Navbar className="color-nav" expand="lg" sticky="top">
         <Container>
-            <Navbar.Brand href="/" ><div className="icone"/></Navbar.Brand>
+            <Link to="/" ><div className="icone"/></Link>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse className="dd-flex flex-row-reverse" id="basic-navbar-nav">
                 <Nav className="me-auto">

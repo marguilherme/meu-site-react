@@ -1,16 +1,16 @@
 #background1 {
-    background-image: url(../images/bg1.png);
-    background-size: cover;
+    background-image: url(../images/background-home.png);
+    background-size: 100%;
 }
 
 #background2 {
-    background-image: url(../images/bg2.png);
-    background-size: cover;
+    background-image: url(../images/background-projects.png);
+    background-size: 100%;
 }
 
 #background3 {
-    background-image: url(../images/bg3.png);
-    background-size: cover;
+    background-image: url(../images/background-about.jpg);
+    background-size: 100%;
 }
 
 .titulo, .mensagem {
