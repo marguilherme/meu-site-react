@@ -22,6 +22,7 @@
     background-repeat: no-repeat;
 }
 
+
 .titulo, .mensagem {
     color: rgb(255, 255, 255);
 }
@@ -106,5 +107,11 @@ form label {
     width: 30%;
     border: 1px solid #848282;
     border-radius: 5px;
+}
+
+img {
+    float: right;
+    padding-right: 25vh;
+    padding-top: 1vh;
 }
 

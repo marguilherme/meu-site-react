@@ -1,3 +1,5 @@
+import selfie from '../images/selfie.png';
+
 export const AboutPage = () => {
     return (
         <>
@@ -13,7 +15,7 @@ export const AboutPage = () => {
                         Atualmente estou integrado no Progama de aceleração de carreiras (Intlab), um programa que está sendo realizado pelo grupo Integrado e está sendo ministrado pelos professores: Anderson Burnes e Rose Scheffer.
                     </h4>
             </div>
-            <div className="imagem-about" />
+            <img src={selfie} />
         </div>
         </>
     );
