@@ -3,8 +3,8 @@ import {faGithub, faLinkedinIn} from '@fortawesome/free-brands-svg-icons';
 import './footer.css';
 export const FooterComponent = () => (
     <footer>
-        <p>Marcos Guilherme</p>
         <div className="redes-sociais">
+            <p>Marcos Guilherme</p>
             <a href="https://github.com/marguilherme" className="item-rede-social">
                 <FontAwesomeIcon icon={faGithub} />
             </a>

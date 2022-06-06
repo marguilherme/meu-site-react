@@ -20,16 +20,16 @@ footer {
 footer p{
     display: block;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 5px;
 }
 
 .redes-sociais{
     display: block;
     text-align: center;
-    margin: 10px
+    
 }
 
 .item-rede-social {
-    margin: 10px;
+    padding-left: 5px;
     color: black;
 }
